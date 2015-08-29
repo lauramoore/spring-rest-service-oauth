@@ -42,5 +42,5 @@ task wrapper(type: Wrapper) {
 }
 
 task stage {
-	dependsOn wrapper
+	dependsOn clean install
 }
